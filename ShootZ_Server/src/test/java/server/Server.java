@@ -1,6 +1,5 @@
 package test.java.server;
 
-//import java.awt.Color;
 import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
@@ -12,8 +11,6 @@ public class Server implements TCPListener
 {
 	static String packet, login;
 	static Socket cl;
-	
-	//MySQLClient client = new MySQLClient("login", "password", "dbName");
 	
 	public static void main(String[] args)
 	{
